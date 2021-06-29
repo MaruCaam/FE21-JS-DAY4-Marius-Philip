@@ -1,0 +1,21 @@
+* {
+    margin: 1rem;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
