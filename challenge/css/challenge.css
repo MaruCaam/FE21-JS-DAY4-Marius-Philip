@@ -1,0 +1,51 @@
+* {
+  margin: 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: blue;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#p1_btn, #p2_btn {
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=challenge.css.map */
